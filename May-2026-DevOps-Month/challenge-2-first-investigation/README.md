@@ -64,7 +64,23 @@ Wait for `Successfully created/updated stack - challenge-2`.
 - You've applied a fix so the function runs successfully and the alarm clears.
 
 ## 📸 Submit
-Screenshot the agent's root-cause finding **and** your healthy function → [awsugmdu.in](https://www.awsugmdu.in/).
+Create a file **`FINDINGS.md`** in this folder (`challenge-2-first-investigation/`) using this template:
+
+```markdown
+# Challenge 2 — Findings
+
+## Root cause
+(what the agent found was wrong — in your own words)
+
+## Fix applied
+(what you changed to make the function succeed)
+
+## Evidence
+- [ ] Screenshot 1: the agent's root-cause finding
+- [ ] Screenshot 2: recovery — the `challenge2-broken-fn-errors` alarm green and a successful Test
+```
+
+Then submit it at [awsugmdu.in](https://www.awsugmdu.in/), with both screenshots attached.
 
 ## Hints
 - No answer yet? Run the **Test** a couple more times and wait a minute — the agent needs to see the failures.

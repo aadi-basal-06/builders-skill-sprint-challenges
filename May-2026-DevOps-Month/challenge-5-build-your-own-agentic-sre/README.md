@@ -18,9 +18,27 @@ You don't need anything fancy. Pick one:
 - 📋 **Write a runbook (Skill)** — give the agent a short markdown "runbook" for your scenario and show it following your steps.
 
 ## What to Submit
-1. A few sentences: what you built, how you broke it, what the agent said.
-2. A **screenshot** (or short recording) of the agent investigating.
-3. Submit at [awsugmdu.in](https://www.awsugmdu.in/).
+Create a file **`FINDINGS.md`** in this folder (`challenge-5-build-your-own-agentic-sre/`) using this template:
+
+```markdown
+# Challenge 5 — Findings
+
+## What I built and how I broke it
+(describe your scenario)
+
+## What the agent found
+(the root cause it identified, in your own words)
+
+## Fix applied
+(what you changed to resolve it)
+
+## Evidence
+- [ ] Screenshot or short recording of the agent investigating your break
+- [ ] Screenshot of recovery (if your scenario has a fix)
+- [ ] Bonus: Slack integration / runbook / coding-assistant fix
+```
+
+Then submit it at [awsugmdu.in](https://www.awsugmdu.in/), with your screenshot or recording attached.
 
 ## Judging
 

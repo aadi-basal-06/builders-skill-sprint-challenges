@@ -75,9 +75,13 @@ Each challenge folder has:
 
 ## 📝 How to Submit
 
-1. Finish a challenge (the agent tells you the root cause).
-2. Take a **screenshot** of the agent's answer.
-3. Submit at [https://www.awsugmdu.in/](https://www.awsugmdu.in/) — say which challenge.
+For each challenge, create a **`FINDINGS.md`** file inside that challenge's folder and fill it in. Each challenge README has a ready-to-copy template — it asks for three things:
+
+1. **Root cause** — what the agent found, in your own words.
+2. **Fix applied** — what you changed to resolve it (Challenge 1 has no fix — it's just a chat intro).
+3. **Evidence** — two screenshots: the agent's root-cause finding, and proof of recovery (the alarm back to green, or a healthy response).
+
+Then submit at [https://www.awsugmdu.in/](https://www.awsugmdu.in/) — say which challenge, and attach your `FINDINGS.md` and screenshots.
 
 ---
 

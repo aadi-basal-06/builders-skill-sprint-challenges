@@ -87,7 +87,23 @@ The function's IAM role is missing permission to read the DynamoDB table. Grant 
 - You've applied the fix so the function succeeds and the alarm clears.
 
 ## 📸 Submit
-Screenshot the agent's root-cause finding **and** your now-healthy function → [awsugmdu.in](https://www.awsugmdu.in/).
+Create a file **`FINDINGS.md`** in this folder (`challenge-4-bad-deploy-detective/`) using this template:
+
+```markdown
+# Challenge 4 — Findings
+
+## Root cause
+(what the agent found — remember, it is NOT in the code — in your own words)
+
+## Fix applied
+(what you changed; this is a permissions/config fix, not a code change)
+
+## Evidence
+- [ ] Screenshot 1: the agent's root-cause finding
+- [ ] Screenshot 2: recovery — the function returning the product and the `challenge4-app-fn-errors` alarm green
+```
+
+Then submit it at [awsugmdu.in](https://www.awsugmdu.in/), with both screenshots attached.
 
 ## Hints
 - The code is genuinely correct. If a function with good code still fails on every run, ask yourself: what does the function need *besides* its code to do its job?

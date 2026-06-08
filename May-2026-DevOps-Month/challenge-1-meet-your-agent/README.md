@@ -31,7 +31,22 @@ Finish [SETUP.md](../SETUP.md) — you should have an Agent Space called `bss-ma
 The agent gives you a plain-English answer about your account (even "you have no resources" counts — it answered!).
 
 ## 📸 Submit
-Screenshot the agent's reply and submit at [awsugmdu.in](https://www.awsugmdu.in/).
+Create a file **`FINDINGS.md`** in this folder (`challenge-1-meet-your-agent/`) using this template:
+
+```markdown
+# Challenge 1 — Findings
+
+## What I asked the agent
+(the questions you tried)
+
+## What the agent told me
+(its plain-English answer about your account, in your own words)
+
+## Evidence
+- [ ] Screenshot: the agent's reply
+```
+
+Then submit it at [awsugmdu.in](https://www.awsugmdu.in/), with your screenshot attached.
 
 ## Hints
 - Don't see Chat? Make sure you're in the **DevOps Agent web app**, not the admin Console page.

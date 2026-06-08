@@ -60,7 +60,23 @@ Wait for `Successfully created/updated stack - challenge-3`.
 - You've acted on its recommendation so CPU drops and the alarm clears.
 
 ## 📸 Submit
-Screenshot the agent's diagnosis **and** the recovered (green) alarm → [awsugmdu.in](https://www.awsugmdu.in/).
+Create a file **`FINDINGS.md`** in this folder (`challenge-3-stress-and-diagnose/`) using this template:
+
+```markdown
+# Challenge 3 — Findings
+
+## Root cause
+(what the agent found was overloading the instance — in your own words)
+
+## Fix applied
+(what you did to bring CPU back to normal)
+
+## Evidence
+- [ ] Screenshot 1: the agent's diagnosis
+- [ ] Screenshot 2: recovery — the `challenge3-high-cpu` alarm back to green
+```
+
+Then submit it at [awsugmdu.in](https://www.awsugmdu.in/), with both screenshots attached.
 
 ## Hints
 - Alarm not red yet? Wait ~2 minutes — it checks every minute. Watch it: Console → **CloudWatch** → **Alarms** → `challenge3-high-cpu`.
