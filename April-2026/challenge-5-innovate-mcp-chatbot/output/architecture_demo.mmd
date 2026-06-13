@@ -1,0 +1,12 @@
+flowchart LR
+    User([User])
+    n0[Lambda]
+    n1[Api Gateway]
+    n2[Dynamodb]
+    n3[S3]
+    User --> n0
+    n0 --> n1
+    n1 --> n2
+    n2 --> n3
+    classDef note fill:#f9f,stroke:#333,stroke-width:0.5;
+    %% Generated from: serverless web app with Lambda, API Gateway, DynamoDB, and S3 static hosting
